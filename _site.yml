@@ -1,0 +1,14 @@
+name: "jamies-website"
+title: "Jamie Montgomery"
+description: |
+  Jamie Montgomery
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Blog"
+      href: blog.html
+output: distill::distill_article
